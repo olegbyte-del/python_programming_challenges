@@ -1,0 +1,1 @@
+# Create a program that asks the user to input their fullname in incorrect casing and prints the input in PascalCase, where the first letter of each word is capitalized and all other letters are lowercase
