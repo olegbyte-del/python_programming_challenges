@@ -1,0 +1,1 @@
+# Create a program that asks the user to input a string and prints the input in title case manually, capitalizing the first letter of each word without using the built-in title() function.
