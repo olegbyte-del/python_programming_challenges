@@ -10,7 +10,9 @@ while True:
     number = int(input("Please choose a number: "))
     
     if number in number_list:
-        print("Duplicate... Please input a unique number")    
+        print("="*50, "Duplicate... Please input a unique number".center(50), "="*50, sep="\n")    
     else:
         number_list.append(number)
-        print(f"Unique! Current list: {number_list}")
+        print("="*50)
+        print(f"Unique! Current list: {number_list}".center(50))
+        print("="*50)
