@@ -14,3 +14,9 @@ formatted_words = []
 for word in word_list:
     format = word[0].upper() + word[1:].lower() 
     formatted_words.append(format)
+    
+final_output = " ".join(formatted_words)
+
+print("="*50)
+print(f"Manual Title Case: {final_output}")
+print("="*50)
