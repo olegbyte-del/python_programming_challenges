@@ -1,0 +1,1 @@
+#  Create a program that asks the user to input numbers continuously until an invalid input is entered, and displays “Unique” if the number has no duplicate and “Duplicate” if the number has already been entered.
