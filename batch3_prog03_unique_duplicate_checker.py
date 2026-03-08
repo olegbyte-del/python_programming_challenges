@@ -7,7 +7,7 @@ print("asks the user to input numbers continuously until an invalid input is ent
 
 number_list = []
 while True:
-    number = int(input("Please choose a number: "))
+    number = int(input("Please input a number: "))
     
     if number in number_list:
         print("="*50, "Duplicate... Please input a unique number".center(50), "="*50, sep="\n")    
