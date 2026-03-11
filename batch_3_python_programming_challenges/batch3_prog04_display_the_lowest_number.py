@@ -8,6 +8,9 @@ for i in range(100):
         user_number = int(input("Please input a number: "))
         number = int(number)
 
+        if lowest_number is None or number < lowest_number:
+            lowest_number = number
+        
     except ValueError:
         print("Invalid input!")
         break
