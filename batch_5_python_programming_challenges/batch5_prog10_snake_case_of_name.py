@@ -3,3 +3,5 @@
 name = input("Please inpu your name: ").lower()
 
 snake_case_format = name.replace(" ", "_")
+
+print(f"The snake version of: {name} is {snake_case_format}")
