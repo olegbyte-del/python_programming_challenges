@@ -7,3 +7,14 @@ word = input("Enter text: ")
 upper = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 lower = list("abcdefghijklmnopqrstuvwxyz")
 
+lowercase = ""
+
+for char in word:
+    if char in upper:
+        index = upper.index(char)
+        lowercase += lower[index]
+    else:
+        lowercase += char
+        
+print("Lowercase:", lowercase)
+        
