@@ -10,3 +10,7 @@ for i in range(len(string)):
         position = i
         break
 
+if position == -1:
+    print("Character not found!")
+else:
+    print("First index: ", position)
