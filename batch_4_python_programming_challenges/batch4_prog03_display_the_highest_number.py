@@ -2,7 +2,14 @@
 
 highest_number = None
 
-for i in range():
-    number = int(input("Please input a number: "))
+while True:
+    try:
+        number = int(input("Please input a number: "))
     
-    
+        if highest_number is None or number > highest_number:
+            highest_number = number
+            
+    except ValueError:
+        break
+
+print(f"The highest number is: {highest_number}")
