@@ -6,7 +6,7 @@ for i in range(10):
     number = int(input("Please input a number: "))
     
     number_list.append(number)
-    
 
-check_duplicate = number_list.count()
-print(check_duplicate)
+for num in number_list:
+    if number_list.count(num) == 1:
+        print([num], end=" ")
