@@ -8,4 +8,4 @@ num1 = int(input("Please choose a number: "))
 num2 = int(input("Please choose a number: "))
 
 for i in range(num1 + 1, num2):
-    print([i], end=" ")
+        print([i], end=" ")

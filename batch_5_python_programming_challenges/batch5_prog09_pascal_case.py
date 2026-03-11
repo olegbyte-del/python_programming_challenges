@@ -10,3 +10,4 @@ user_name = input("Please enter your fullname: ")
 pascal_name_version = user_name.title()
 
 print(pascal_name_version.replace(" ", ""))
+
