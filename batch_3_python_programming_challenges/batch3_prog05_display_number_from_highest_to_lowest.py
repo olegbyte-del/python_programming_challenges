@@ -3,10 +3,13 @@
 number_list = []
 
 for i in range(100):
-    number = int(input("Please input a number: "))
-    number_list.append(number)
-    
-    number_list.sort()
+    try:
+        number = int(input("Please input a number: "))
+        number_list.append(number)
+        
+        number_list.sort()
+    except ValueError:
+        break
 
 for num in number_list:
     print([num], end=" ")
