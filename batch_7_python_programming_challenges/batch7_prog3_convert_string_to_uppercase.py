@@ -17,4 +17,4 @@ for char in word:
         uppercase += char
         
 print("Uppercase:", uppercase)
-        
+
