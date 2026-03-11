@@ -5,3 +5,8 @@ target_char = input("Enter the character to count: ")
 
 counter = 0
 
+for char in string:
+    if char == target_char:
+        counter += 1
+
+print(f"Count: {counter}")
