@@ -2,3 +2,8 @@
 
 num1 = int(input("Please input a number: "))
 num2 = int(input("Please input a number: "))
+
+result = num1 // num2 
+
+print(f"The quotient of {num1} and {num2} is: {result}")
+    
