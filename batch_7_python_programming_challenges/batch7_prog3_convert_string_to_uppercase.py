@@ -16,5 +16,5 @@ for char in word:
     else:
         uppercase += char
         
-print("Uppercase:", uppercase)
-
+print("uppcase:", uppercase)
+        
