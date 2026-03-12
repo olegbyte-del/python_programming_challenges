@@ -2,10 +2,11 @@
 
 string = input("Please input a string with additional spaces: ")
 
-space_list = []
+space_list = -1
 
-for i in string:
-    if string[i] == " ":
-        space_list.append(i)
+for i in range(len(string)):
+    if string[i] != " ":
+        space_list = i
         
-    
+result = string[:space_list + 1]
+print(f"Result: {result}")
