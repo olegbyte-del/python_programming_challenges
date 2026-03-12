@@ -4,3 +4,19 @@ string = input("Please input a string: ")
 
 upper = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 lower = list("abcdefghijklmnopqrstuvwxyz")
+
+result = ""
+
+for i in range(len(string)):
+    char = string[i]
+    
+    if i == 0:
+        if char in lower:
+            index = lower.index(char)
+            result += upper[index]
+        
+        if char in upper:
+            index = upper.index(char)
+            result += lower[index]
+            
+print(f"Result: {result}")
