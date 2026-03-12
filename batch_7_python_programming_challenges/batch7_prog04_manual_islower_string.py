@@ -3,3 +3,16 @@
 string = input("Please input a string: ")
 
 lower = list("abcdefghijklmnopqrstuvwxyz")
+
+status = None
+
+for char in range(len(string)):
+    try:
+        if char in lower:
+            status = "True"
+        else:
+            status = "False"
+    except ValueError:
+        print("Invalid input!")
+
+print(status)
