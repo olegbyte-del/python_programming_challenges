@@ -4,14 +4,14 @@ string = input("Please input a string: ")
 
 lower = list("abcdefghijklmnopqrstuvwxyz")
 
-status = None
+status = True
 
-for char in range(len(string)):
+for char in string:
     try:
         if char in lower:
-            status = "True"
+            pass
         else:
-            status = "False"
+            status = False
     except ValueError:
         print("Invalid input!")
 
