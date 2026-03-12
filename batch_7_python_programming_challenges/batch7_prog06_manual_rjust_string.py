@@ -2,3 +2,7 @@
 
 string = input("Please input a string:")
 space = int(input("Please identify the number of spaces that needs to be adjusted: "))
+
+result = " " * space + string
+
+print(f"Result: {result}")
