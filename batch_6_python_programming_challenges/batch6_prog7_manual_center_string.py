@@ -5,3 +5,10 @@ width = int(input("Please identify width for the basis for your center: "))
 
 total_spaces = width - len(string)
 
+if total_spaces > 0:
+    left_side = total_spaces // 2
+    right_side = total_spaces - left_side
+    
+    final_format = (" " * left_side) + string + (" " * right_side)
+    
+print(f"Result: {final_format}")
