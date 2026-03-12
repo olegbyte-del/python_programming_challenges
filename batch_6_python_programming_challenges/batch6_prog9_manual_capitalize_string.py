@@ -15,8 +15,15 @@ for i in range(len(string)):
             index = lower.index(char)
             result += upper[index]
         
+        else:
+            result += char
+    
+    else: 
         if char in upper:
             index = upper.index(char)
             result += lower[index]
+            
+        else:
+            result += char
             
 print(f"Result: {result}")
