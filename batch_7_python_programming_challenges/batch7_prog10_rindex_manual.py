@@ -8,9 +8,14 @@ print("Create a program that asks the user to input a string and a substring",
 main_string = input("Enter the main string: ")
 sub_string = input("Enter the substring to find: ")
 
-try:
-    find_last_index = main_string.rindex(sub_string)
-    print(f"The last occurrence is at index: {find_last_index}")
+last_index = -1
 
-except ValueError:
-    print("Substring not found!")
+for i in range(len(main_string)):
+    if main_string[i:i+len(sub_string)] == sub_string:
+        last_index = i
+
+    if last_index != -1:
+        print("The last occurence is at index: ", last_index)
+    else:
+        print("Substring not found!")
+    
